@@ -8,7 +8,7 @@ Your target is to read a ORC formated data store and detect users that had signi
 
 1. Create connection to ORC based on: https://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.3.2/bk_spark-guide/content/ch_orc-spark.html
 1. Create a new table that could store: user id, action date, game type, result (amount of win/loss)
-1. Insert random values for 1000 users and for each 100 games w/ results between -10 and 10
+1. Insert random values for 1000 users and for each 100 games w/ results between -10 and 10 using http://spark.apache.org/docs/2.1.0/api/python/pyspark.sql.html
 1. Find the users that in their last 10 games lost 70% of their games using RDD
 1. Do the same using DataFrames
 1. Compare the performance of both cases
